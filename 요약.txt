@@ -1,0 +1,14 @@
+cd ~~~/를 치면 위치 이동 명령어
+cd ..을 치면 전 위치로 이동
+
+tab을 이용하면 작성하던녀석을 바로 작성 가능
+git init을 이용하면 cd를 통해 이동한 위치에 .git 폴더 제작됨
+
+ls 치면 이 폴더 안에 있는 모든 녀석 확인
+ls -al 치면 숨겨진 녀석도 확인 가능.
+
+git remote add origin (주소)
+origin이라는 이름으로 원격저장소 (주로 github)을 지정
+
+git push origin master
+origin으로 저장된 원격저장소에 master라는 이름으로 올리는 것.
